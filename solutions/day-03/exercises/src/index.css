@@ -1,0 +1,54 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  height: 100%;
+  line-height: 1.5;
+  font-family: 'Montserrat';
+  font-weight: 300;
+  color: black;
+}
+
+.app {
+  width: 80%;
+  margin: auto;
+}
+
+img {
+  border-radius: 50%;
+}
+
+.skill {
+  background-color: red;
+}
+
+.skills-text {
+  margin: 15px auto;
+}
+h1 {
+  font-size: 20px;
+  margin: 15px auto;
+}
+
+.job-country {
+  font-size: 15px;
+  margin: 15px auto;
+}
+
+ul li {
+  text-align: center;
+  display: inline-block;
+  color: white;
+  background-color: orange;
+  border-radius: 5px;
+  padding: 1px 25px;
+  margin: 2px 5px;
+}
+
+.footer {
+  margin-top: 15px;
+}
