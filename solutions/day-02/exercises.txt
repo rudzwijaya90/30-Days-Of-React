@@ -1,0 +1,87 @@
+Exercises: What is React?
+What is React?
+1. React is Javascript library to build reusable User Interface (UI)
+
+What is a library?
+2. Collection or pre-written code that provides a set of functions, utilities, or components that developers can use to perform
+common task more easily, fast and efficiently.
+These libraries help to simplify the development process by offering ready-made solutions for common programming challenges, so developers don't have to reinvent the wheel for each project.
+
+What is a single page application?
+3. Single Page Application is an application which has only one HTML Page
+
+What is a component ?
+4. Component is a reusable, self-contained building block of a user interface (UI) or functionality in a web application. In the context of React, components are the primary unit of the UI and can be combined to build complex interfaces.
+
+What is the latest version of React?
+5. React 18.x
+
+What is DOM?
+6. The DOM (Document Object Model) is an interface that allows programming languages like JavaScript to interact with and manipulate HTML and XML documents. It represents the structure of a web page as a tree of objects, where each object corresponds to a part of the page (such as an element, attribute, or piece of text).
+
+What is React Virtual DOM?
+7. React has it's own way to handle the DOM to make new changes and it updates only the element, that needs changing.
+
+What does a web application or a website(composed of) have?
+8. A web application, or a website, is made of buttons, links, forms with different input fields, header, footer, sections, articles, texts, images, audios, videos and boxes with different shapes.
+
+
+Exercises: Why React?
+Why did you chose to use react?
+1. to learn the library after learning javascript and react has a vast majority user or popular.
+
+What measures do you use to know popularity ?
+2. One measure of popularity could be GitHub repository stars, watchers and forks.
+
+What is more popular, React or Vue ?
+3. React from my beginner views lol
+
+Exercises: JSX
+What is an HTML element?
+1. An HTML element has an opening and closing tags, content, and attribute in the opening tag. However, some HTML elements may not have content and a closing tag - they are self closing elements.
+
+How to write a self closing HTML element?
+2. Instead of using a separate closing tag (like </div>), self-closing elements are "closed" within the opening tag itself by adding a slash (/) before the closing angle bracket (>).
+
+What is an HTML attribute? Write some of them
+3. An HTML attribute is a modifier or additional information added to an HTML element to provide more details about how the element should behave, appear, or interact with the user.
+common HTML attribute: id, class, type, text, href, src, alt, style, title, name, placeholder, type, value, target, rel, rowspan, colspan
+
+What is JSX?
+4. JSX stands for JavaScript XML. JSX allows us to write HTML elements with JavaScript code. 
+
+What is babel?
+5. Babel is a library which transpiles JSX to pure JavaScript and latest JavaScript to older version
+
+What is a transpiler?
+6. A transpiler (short for source-to-source compiler) is a type of compiler that takes source code written in one programming language and translates it into source code in another programming language, often with the goal of enabling compatibility or adding features not directly supported by the target language.
+
+Exercises: JSX Elements
+What is a JSX element?
+1. JSX element could be a single HTML element or many HTML elements wrapped in a parent HTML element.
+A JSX element (short for JavaScript XML) is a syntax extension for JavaScript, commonly used with React, which allows you to write HTML-like code directly within JavaScript. JSX elements look very similar to HTML tags but are actually JavaScript objects behind the scenes. JSX allows developers to describe the structure of the user interface in a declarative way, combining the best features of HTML and JavaScript into a single, readable syntax.
+
+Write your name in a JSX element and store it in a name variable
+2. const name = (
+    <div>
+        <h1>Bambang</h1>
+    </div>
+)
+
+Write a JSX element which displays your full name, country, title, gender, 
+email, phone number. Use h1 for the name and p for the rest of the 
+information and store it in a user variable
+3. const user = (
+    <div>
+    <h1>Bambang Setyono</h1>
+        <p>Wakanda</p>
+        <p>Superman</p>
+        <p>Male</p>
+        <p>wakandathebest@gmail.com</p>
+        <p>088812345</p>
+    </div>
+)
+
+Write a footer JSX element
+4. 
+
