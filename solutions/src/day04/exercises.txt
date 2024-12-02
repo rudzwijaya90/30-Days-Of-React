@@ -1,0 +1,10 @@
+Exercises Level 1
+1. Arrow functions was introduced in ES6 and introduced a simple and shorter way to create functions
+2. React Component is a small, reusable code, which is responsible for one part of the application UI
+3. We use Javascript function to make a functional component
+4. Conceptually, react components are like Javascript functions. A functional component is a JS function that returns JSX in react and accept arbitrary inputs (often called "props").
+A function is said to be pure if the return value is determined by its input values only and the return value is always the same for the same input values.
+5. A component that returns only a single HTML as JSX is considered as a small component
+6. yes
+7. in App.js
+8. in App.js

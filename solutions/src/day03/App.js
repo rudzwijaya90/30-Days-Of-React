@@ -1,7 +1,7 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import asabenehImage from './images/asabeneh.jpg'
+// import ReactDOM from 'react-dom';
+import './App.css';
+import asabenehImage from './../images/asabeneh.jpg'
 
 const user = (
   <div>
@@ -31,16 +31,18 @@ const main = (
 )
 
 // JSX element, app
-const app = (
-  <div className='app'>
-    {user}
-    <h1>{name}</h1>
-    <p className='job-country'>{job}, {country}</p>
-    {main}
-    <p className='footer'>{footer}</p>
-  </div>
-)
+function App () {
+    return (
+        <div className='app'>
+            {user}
+            <h1>{name}</h1>
+            <p className='job-country'>{job}, {country}</p>
+            {main}
+            <p className='footer'>{footer}</p>
+        </div>
+    )}
 
-const rootElement = document.getElementById('root')
-// we render the JSX element using the ReactDOM package
-ReactDOM.render(app, rootElement)
+  
+
+
+export default App;
