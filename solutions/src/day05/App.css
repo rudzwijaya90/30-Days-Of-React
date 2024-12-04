@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header-wrapper {
+    text-align: center;
+}
+
+.header-wrapper h1, .header-wrapper h2, .header-wrapper h3, .header-wrapper p{
+    margin: 25px auto;
+    padding: 10px 25px;
+}
+
+.image-wrapper img {
+    display: flex;
+    width: 100%;
+}
+
+/* .subs-wrapper {
+    display: inline-block;
+    text-align: center;
+    width: 95%;
+    background-color: rgb(188, 234, 236);
+    border-radius: 15px;
+    margin-left: 2em;
+    margin-right: 2em;
+    margin-top: 2em;
+} */
+
+.subs-wrapper {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.subs-wrapper .content {
+    background-color: rgb(188, 234, 236);
+    padding: 30px 120px;
+    margin: 30px;
+    width: 100%;
+    max-width: 950px;
+    min-width: 200px;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.subs-wrapper h2 {
+    margin: 30px auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.subs-wrapper p {
+    margin: 35px auto;
+    font-weight: 350;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+input {
+    margin: 10px 5px;
+    padding: 5px;
+    border-color: transparent;
+    border-radius: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+button {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(240, 129, 129);
+    padding: 0.5em 4.5em;
+    border-radius: 5px;
+    border-color: transparent;
+    margin: 0.8em 0.5em 0.8em;
+    color: white;
+}
