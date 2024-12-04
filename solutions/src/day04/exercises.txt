@@ -8,3 +8,4 @@ A function is said to be pure if the return value is determined by its input val
 6. yes
 7. in App.js
 8. in App.js
+9. in App.js
